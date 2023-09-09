@@ -1,4 +1,5 @@
 <?php 
-require '_dbconnect.php'
+require '_dbconnect.php';
 
+echo "sucess"
 ?>
