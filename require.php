@@ -1,5 +1,8 @@
 <?php 
 require '_dbconnect.php';
 
-echo "sucess"
+$sql = "SELECT * FROM `contacts`";
+$result = mysqli_query($conn, $sql);
+
+
 ?>
